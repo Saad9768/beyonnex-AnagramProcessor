@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.AnagramProcessor.Anagram.AnagramServiceImpl;
+import com.AnagramProcessor.Anagram.service.impl.AnagramServiceImpl;
 
 @RestController
 public class AnagramController {

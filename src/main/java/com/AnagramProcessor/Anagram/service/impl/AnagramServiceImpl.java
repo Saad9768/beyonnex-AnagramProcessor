@@ -1,4 +1,4 @@
-package com.AnagramProcessor.Anagram;
+package com.AnagramProcessor.Anagram.service.impl;
 
 import java.util.HashMap;
 import java.util.HashSet;
