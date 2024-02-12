@@ -21,3 +21,13 @@ This project includes JUnit tests for its utility methods. To run the tests, exe
 To run only the test, Run the following command in the root directory:  <br />
 ``mvn test`` <br />
 
+## Deploy Project 
+### Please follow the below steps: 
+#### Install Docker on your machine
+Run the following command it will Dockerfile which is present in the root directory.<br />
+To make image of the docker file run the following command. At the time of image creation it will run all the test cases accordingly<br /> 
+``docker build -t <image_name> .``  <br /> <br />
+To Run the Docker image: <br />
+``docker run --name your_container_name --restart=always -d your_image_name`` <br />
+
+
