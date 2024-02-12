@@ -8,6 +8,9 @@ import java.util.Set;
 public class AnagramServiceImpl {
 
 	public static boolean areAnagrams(String text1, String text2) {
+		if (text1 == null || text2 == null) {
+			return false;
+		}
 		if (text1.length() != text2.length()) {
 			return false;
 		}
@@ -28,6 +31,9 @@ public class AnagramServiceImpl {
 
 	public static Set<String> generateAnagrams(String input) {
 		Set<String> result = new HashSet<>();
+		if (input == null) {
+			return result;
+		}
 		generateAnagramsHelper("", input, result);
 		return result;
 	}
