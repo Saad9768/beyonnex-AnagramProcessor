@@ -1,4 +1,4 @@
-package com.Anagram.AnagramChecker;
+package com.AnagramProcessor.Anagram;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
