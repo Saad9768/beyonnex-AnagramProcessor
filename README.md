@@ -3,8 +3,8 @@ The Anagram Service is a Spring Boot application designed to provide utility fun
 
 ## Features
 #### There are 2 endpoints
-``/anagram/:str1/:str2`` => It will return true if both the strings are Anagram  <br />
-``/anagram/:input`` => It will return all the possible Anagram. If there are no Anagram it will return empty SET  <br />
+``[GET] /anagram/:str1/:str2`` => It will return true if both the strings are Anagram  <br />
+``[GET] /anagram/:input`` => It will return all the possible Anagram. If there are no Anagram it will return empty SET  <br />
 ## Getting Started
 #### Prerequisites
 JDK 17 <br />
